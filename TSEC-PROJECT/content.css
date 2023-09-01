@@ -1,0 +1,81 @@
+.h-content {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 2fr 1fr;
+}
+.h-content-header {
+  height: 120px;
+  background-color: #fdfcdc;
+  text-align: left;
+  border-radius: 12px;
+  margin: 20px;
+}
+.h-content-contread {
+  margin: 20px;
+  background-color: #fdfcdc;
+  border-radius: 12px;
+}
+.h-content-articles {
+  margin: 20px;
+  background-color: #00afb9;
+  border-radius: 12px;
+}
+.h-content-extra {
+  margin: 20px;
+  background-color: #fdfcdc;
+  border-radius: 12px;
+}
+.p-stylying {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.h-content-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.article {
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+#article-1 {
+  background-image: url(images/image1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+#article-2 {
+  background-image: url(images/image2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+#article-3 {
+  background-image: url(images/image3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+#article-4 {
+  background-image: url(images/image4.jpg);
+  background-position: 100%;
+  background-size: cover;
+}
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 70px;
+}
+
+.desc {
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  font-style: italic;
+  color: black;
+  margin-top: -20px;
+}

@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+
+  height: 60px;
+  background-color: #f07167;
+  align-items: center;
+}
+.nav-logo {
+  padding: 20px;
+}
+.nav-search {
+  padding-left: 400px;
+  padding-right: 180px;
+  padding-top: 3px;
+}
+.input-bar {
+  height: 30px;
+  width: 560px;
+  border-radius: 12px;
+  font-size: 15px;
+  padding-left: 9px;
+  border-color: 1px solid black;
+  margin-right: 150px;
+}
+.nav-image1 {
+  background-image: 50% 50%;
+  padding-right: 15px;
+}
+.nav-image2 {
+  background-image: 50% 50%;
+  /* padding-left: 60px; */
+}
